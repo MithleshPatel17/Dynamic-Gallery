@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="jquery.flipster.min.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="carousel">
+                <ul>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img1.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img2.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img3.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img4.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img5.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img6.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img7.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img8.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img9.jpg"></li>
+                    <li><img src="../gallery/Gallery-Reflection-Img/img10.jpg"></li>
+                </ul>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+        <script src="jquery.flipster.min.js"></script>
+        <script>
+            $('.carousel').flipster({
+                Style:'carousel',
+                spacing: -0.3,
+            });
+        </script>
+    </body>
+</html>
